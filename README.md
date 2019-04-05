@@ -1,27 +1,30 @@
 TO REPRODUCE:
 
-npm install -g @angular/cli
-npm install -g ionic
+    npm install -g @angular/cli
+    
+    npm install -g ionic
 
-mkdir p33t_proj\
+    mkdir p33t_proj\
 
-cd p33t_proj\
+    cd p33t_proj\
 
-ionic start p33t blank --cordova --project-id=p33t --package-id=co.p33t.www
+    ionic start p33t blank --cordova --project-id=p33t --package-id=co.p33t.www
 
-cd p33t\
+    cd p33t\
 
-npm i --save @angular/material @angular/cdk @angular/animations hammerjs @angular/flex-layout @angular/fire firebase
+    npm i --save @angular/material @angular/cdk @angular/animations hammerjs @angular/flex-layout @angular/fire firebase
 
 
 
 
 
 Update Main.ts
-    - import 'hammerjs';
+
+    import 'hammerjs';
 
 Update angular.json
-    - "schematics": {
+
+    "schematics": {
         "@schematics/angular:component": {
           "style": "sass"
         }
