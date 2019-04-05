@@ -1,0 +1,7 @@
+{
+  "name": "p33t",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
